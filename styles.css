@@ -1,0 +1,69 @@
+header {
+  text-align: center;
+  border-bottom: solid 2px;
+  width: 100%;
+  margin-bottom: 5%;
+}
+body {
+  border: solid 2px;
+}
+.card {
+  width: 75%;
+  border: solid 2px;
+  border-radius: 5px;
+  margin-left: 12.5%;
+  position: relative;
+  align-items: center;
+}
+
+.card:not(:first-child) {
+  margin-top: 5%;
+}
+
+.bookmarkcard {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 87.5%;
+  top: -8%;
+  background-color: white;
+}
+.innercard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answertext {
+  display: none;
+}
+
+.tags {
+  display: flex;
+  list-style-type: none;
+  gap: 2%;
+}
+li {
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.buttonanswer {
+  height: auto;
+  width: 50%;
+}
+
+footer {
+  border-top: solid 2px;
+  margin-top: 5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  padding-bottom: 2%;
+}
