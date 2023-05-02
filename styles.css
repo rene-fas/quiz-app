@@ -57,13 +57,17 @@ li {
 footer {
   border-top: solid 2px;
   margin-top: 5%;
+  position: sticky;
 }
 
 .navbar {
   display: flex;
+  position: sticky;
   justify-content: space-between;
   padding-top: 2%;
   padding-left: 12.5%;
   padding-right: 12.5%;
   padding-bottom: 2%;
+  position: sticky;
+  bottom: 0;
 }
