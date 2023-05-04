@@ -1,0 +1,56 @@
+.card {
+  width: 75%;
+  border: solid 2px;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 12.5%;
+  margin: auto;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card:first-child {
+  margin-top: 5%;
+}
+
+.card:not(:first-child) {
+  margin-top: 5%;
+}
+.card:last-child {
+  margin-bottom: 5%;
+}
+.card__bookmark {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 82%;
+  top: -8%;
+  background-color: white;
+}
+.card__innercontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__answertext {
+  display: none;
+}
+
+.tags {
+  display: flex;
+  list-style-type: none;
+  gap: 2%;
+  padding-left: 5%;
+}
+li {
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.card__buttonanswer {
+  height: auto;
+  width: 30%;
+}

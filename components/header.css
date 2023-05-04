@@ -1,0 +1,10 @@
+header {
+  text-align: center;
+  width: 100%;
+  background-color: wheat;
+  padding: 25px 0px 25px 0px;
+  z-index: 2;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  border-top: solid 2px;
+}

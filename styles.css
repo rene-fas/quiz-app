@@ -1,3 +1,7 @@
+@import "./components/card.css";
+@import "./components/header.css";
+@import "./components/navbar.css";
+
 * {
   box-sizing: border-box;
 }
@@ -11,111 +15,7 @@ h1 {
   margin: 0px;
 }
 
-header {
-  text-align: center;
-  width: 100%;
-  background-color: wheat;
-  padding: 25px 0px 25px 0px;
-  z-index: 2;
-  border-left: solid 2px;
-  border-right: solid 2px;
-  border-top: solid 2px;
-}
-
-.card {
-  width: 75%;
-  border: solid 2px;
-  border-radius: 5px;
-  position: relative;
-  margin-left: 12.5%;
-  margin: auto;
-  align-items: center;
-  background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.card:first-child {
-  margin-top: 5%;
-}
-
-.card:not(:first-child) {
-  margin-top: 5%;
-}
-.card:last-child {
-  margin-bottom: 5%;
-}
-.card__bookmark {
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  left: 82%;
-  top: -8%;
-  background-color: white;
-}
-.card__innercontent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card__answertext {
-  display: none;
-}
-
-.tags {
-  display: flex;
-  list-style-type: none;
-  gap: 2%;
-  padding-left: 5%;
-}
-li {
-  border: solid 1px;
-  border-radius: 5px;
-  background-color: aliceblue;
-}
-
-.card__buttonanswer {
-  height: auto;
-  width: 30%;
-}
-
-footer {
-  border-left: solid 2px;
-  border-right: solid 2px;
-  border-bottom: solid 2px;
-  position: sticky;
-  bottom: 0;
-}
-
-.navbar {
-  display: flex;
-  position: sticky;
-  justify-content: space-between;
-  padding-top: 2%;
-  padding-left: 12.5%;
-  padding-right: 12.5%;
-  padding-bottom: 2%;
-  bottom: 0;
-  z-index: 1;
-  background-color: wheat;
-}
-
 .li_tags {
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.navbar__home {
-  height: 70px;
-  width: 70px;
-}
-
-.navbar__bookmark {
-  height: 70px;
-}
-
-.navbar__profile {
-  height: 50px;
-  padding-top: 5px;
-  margin-top: 7px;
 }

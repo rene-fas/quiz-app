@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>Quiz App</title>
+    <script language="javascript" type="text/javascript" src="./js.js"></script>
   </head>
-
-  <header>
-    <h1>Quiz App</h1>
-  </header>
-  <main class="containermain">
-    <body>
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+    <main class="containermain">
       <section class="card" id="card">
         <img
-          class="bookmarkcard"
-          src="./images/bookmarkactive.svg"
+          class="card__bookmark"
+          src="./images/bookmark.svg"
           alt="bookmark"
         />
-        <section class="innercard">
+        <section class="card__innercontent">
           <p class="Frage">Was ist ein Platzhalter?</p>
-          <button class="buttonanswer">Show answer</button>
-          <p class="answertext">Hier ist die Antwort auf die Frage</p>
+          <button class="card__buttonanswer">Show answer</button>
+          <p class="card__answertext">Hier ist die Antwort auf die Frage</p>
         </section>
         <ul class="tags">
           <li>tag 1</li>
@@ -32,14 +32,14 @@
       </section>
       <section class="card" id="card2">
         <img
-          class="bookmarkcard"
-          src="./images/bookmarkactive.svg"
+          class="card__bookmark"
+          src="./images/bookmark.svg"
           alt="bookmark"
         />
-        <section class="innercard">
+        <section class="card__innercontent">
           <p class="Frage">Was macht ein Platzhalter?</p>
-          <button class="buttonanswer">Show answer</button>
-          <p class="answertext">Hier ist die Antwort auf die Frage</p>
+          <button class="card__buttonanswer">Show answer</button>
+          <p class="card__answertext">Hier ist die Antwort auf die Frage</p>
         </section>
         <ul class="tags">
           <li>tag 1</li>
@@ -49,27 +49,27 @@
       </section>
       <section class="card" id="card3">
         <img
-          class="bookmarkcard"
-          src="./images/bookmarkactive.svg"
+          class="card__bookmark"
+          src="./images/bookmark.svg"
           alt="bookmark"
         />
-        <section class="innercard">
+        <section class="card__innercontent">
           <p class="Frage">Was macht ein Platzhalter?</p>
-          <button class="buttonanswer">Show answer</button>
-          <p class="answertext">Hier ist die Antwort auf die Frage</p>
+          <button class="card__buttonanswer">Show answer</button>
+          <p class="card__answertext">Hier ist die Antwort auf die Frage</p>
         </section>
         <ul class="tags">
-          <li>tag 1</li>
-          <li>tag 2</li>
-          <li>tag 3</li>
+          <li class="li_tags">tag 1</li>
+          <li class="li_tags">tag 2</li>
+          <li class="li_tags">tag 3</li>
         </ul>
       </section>
-    </body>
+    </main>
     <footer class="navbar">
       <nav>
         <a href="./index.html"
           ><img
-            class="homenavbar"
+            class="navbar__home"
             id="homenavbar"
             aria-label="home"
             src="./images/home.svg"
@@ -77,9 +77,9 @@
         /></a>
       </nav>
       <nav>
-        <a href=""
+        <a href="./bookmark.html"
           ><img
-            class="bookmarknavbar"
+            class="navbar__bookmark"
             aria-label="bookmark"
             src="./images/bookmarkactive.svg"
             alt="bookmark"
@@ -88,12 +88,12 @@
       <nav>
         <a href=""
           ><img
-            class="profilenavbar"
+            class="navbar__profile"
             aria-label="user profile"
             src="./images/profile-user-account-svgrepo-com.svg"
             alt="profile"
         /></a>
       </nav>
     </footer>
-  </main>
+  </body>
 </html>
