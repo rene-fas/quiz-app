@@ -11,10 +11,6 @@ h1 {
   margin: 0px;
 }
 
-.card:first-child {
-  margin-top: 5%;
-}
-
 header {
   text-align: center;
   width: 100%;
@@ -24,7 +20,6 @@ header {
   border-left: solid 2px;
   border-right: solid 2px;
   border-top: solid 2px;
-  left: px;
 }
 
 .card {
@@ -39,13 +34,17 @@ header {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.card:first-child {
+  margin-top: 5%;
+}
+
 .card:not(:first-child) {
   margin-top: 5%;
 }
 .card:last-child {
   margin-bottom: 5%;
 }
-.bookmarkcard {
+.card__bookmark {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -53,13 +52,13 @@ header {
   top: -8%;
   background-color: white;
 }
-.innercard {
+.card__innercontent {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.answertext {
+.card__answertext {
   display: none;
 }
 
@@ -75,9 +74,9 @@ li {
   background-color: aliceblue;
 }
 
-.buttonanswer {
+.card__buttonanswer {
   height: auto;
-  width: 50%;
+  width: 30%;
 }
 
 footer {
@@ -101,21 +100,22 @@ footer {
   background-color: wheat;
 }
 
-li {
+.li_tags {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.homenavbar {
+.navbar__home {
   height: 70px;
   width: 70px;
 }
 
-.bookmarknavbar {
+.navbar__bookmark {
   height: 70px;
 }
 
-.profilenavbar {
+.navbar__profile {
   height: 50px;
-  padding-top: 10px;
+  padding-top: 5px;
+  margin-top: 7px;
 }
