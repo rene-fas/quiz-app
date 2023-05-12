@@ -28,6 +28,10 @@
   top: -8%;
   background-color: white;
 }
+
+.card__bookmark:hover {
+  cursor: pointer;
+}
 .card__innercontent {
   display: flex;
   flex-direction: column;

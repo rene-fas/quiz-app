@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>Quiz App</title>
-    <script language="javascript" type="text/javascript" src="./js.js"></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="./js.js"
+      defer
+    ></script>
   </head>
   <body>
     <header>
       <h1>Quiz App</h1>
     </header>
     <main class="containermain">
-      <section class="card" id="card">
+      <section class="card" id="card" data-js="card">
         <img
           class="card__bookmark"
           src="./images/bookmarkactive.svg"
           alt="bookmark"
+          data-js="card__bookmark"
         />
         <section class="card__innercontent">
           <p class="Frage">Was ist ein Platzhalter?</p>
@@ -30,11 +36,12 @@
           <li class="li_tags">#tag 3</li>
         </ul>
       </section>
-      <section class="card" id="card2">
+      <section class="card" id="card2" data-js="card">
         <img
           class="card__bookmark"
           src="./images/bookmarkactive.svg"
           alt="bookmark"
+          data-js="card__bookmark"
         />
         <section class="card__innercontent">
           <p class="Frage">Was macht ein Platzhalter?</p>
@@ -47,11 +54,12 @@
           <li class="li_tags">#tag 3</li>
         </ul>
       </section>
-      <section class="card" id="card3">
+      <section class="card" id="card3" data-js="card">
         <img
           class="card__bookmark"
           src="./images/bookmarkactive.svg"
           alt="bookmark"
+          data-js="card__bookmark"
         />
         <section class="card__innercontent">
           <p class="Frage">Was macht ein Platzhalter?</p>
@@ -70,17 +78,17 @@
         <a href="./index.html"
           ><img
             class="navbar__home"
-            id="homenavbar"
+            id="navbar__home"
             aria-label="home"
             src="./images/home.svg"
-            alt="home"
+            alt="home link"
         /></a>
       </nav>
       <nav>
         <a href="./bookmark.html"
           ><img
             class="navbar__bookmark"
-            aria-label="bookmark"
+            aria-label="bookmark link"
             src="./images/bookmarkactive.svg"
             alt="bookmark"
         /></a>
@@ -89,7 +97,7 @@
         <a href=""
           ><img
             class="navbar__profile"
-            aria-label="user profile"
+            aria-label="user profile link"
             src="./images/profile-user-account-svgrepo-com.svg"
             alt="profile"
         /></a>
