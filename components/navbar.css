@@ -34,3 +34,8 @@ footer {
   padding-top: 5px;
   margin-top: 7px;
 }
+
+.navbar__addQuestion {
+  height: 50px;
+  margin-top: 10px;
+}
