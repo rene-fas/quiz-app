@@ -1,6 +1,7 @@
 @import "./components/card.css";
 @import "./components/header.css";
 @import "./components/navbar.css";
+@import "./components/addQuestionform.css";
 
 * {
   box-sizing: border-box;

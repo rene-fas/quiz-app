@@ -1,0 +1,12 @@
+.containerform {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.addQuestionForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

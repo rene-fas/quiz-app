@@ -17,7 +17,36 @@
     <header>
       <h1>Quiz App</h1>
     </header>
-    <main class="containermain"></main>
+    <main class="containermain">
+      <section class="containerform">
+        <form class="addQuestionForm" data-js="addQuestionForm">
+          <label for="yourQuestion">Your Question:</label><br />
+          <textarea
+            id="yourQuestion"
+            name="yourQuestion"
+            data-js="yourQuestion"
+          ></textarea
+          ><br />
+          <label for="yourAnswer">Your Answer:</label><br />
+          <textarea
+            id="yourAnswer"
+            name="yourAnswer"
+            data-js="yourAnswer"
+          ></textarea
+          ><br />
+          <label for="tags">Your tags:</label><br />
+          <input type="text" id="tags" name="tags" />
+          <br />
+          <button
+            class="addQuestionForm__submit"
+            data-js="addQuestionForm__submit"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
     <footer class="navbar">
       <nav>
         <a href="./index.html"
@@ -25,7 +54,7 @@
             class="navbar__home"
             id="homenavbar"
             aria-label="home"
-            src="./images/homeactive.svg"
+            src="./images/home.svg"
             alt="home"
         /></a>
       </nav>
@@ -43,7 +72,7 @@
           ><img
             class="navbar__addQuestion"
             aria-label="user profile"
-            src="./images/add-square.svg"
+            src="./images/add-square-active.svg"
             alt="profile"
         /></a>
       </nav>
