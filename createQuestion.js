@@ -1,38 +1,3 @@
-/*3. Create new Cards
-The data entered into the form by users should be used to create a new question, that will be displayed as a card like the other questions.
-
-Listen the form's submit event
-Prevent the default submit behavior to handle everything within JavaScript
-Read all entered data from the input fields (question, answer, tags)
-Generate all DOM element for a card with createElement()
-Insert the form's data as text into the DOM elements
-Append the card to the page, directly below the form
- <section class="card" id="card" data-js="card">
-        <img
-          class="card__bookmark"
-          src="./images/bookmark.svg"
-          alt="bookmark"
-          data-js="card__bookmark"
-        />
-        <section class="card__innercontent">
-          <p class="questionText" data-js="questionText">
-            Was ist ein Platzhalter?
-          </p>
-          <button class="card__buttonanswer" data-js="card__buttonanswer">
-            Show answer
-          </button>
-          <p class="card__answertext" data-js="card__answertext" hidden>
-            Hier ist die Antwort auf die Frage
-          </p>
-        </section>
-        <ul class="tags">
-          <li class="li_tags">#tag 1</li>
-          <li class="li_tags">#tag 2</li>
-          <li class="li_tags">#tag 3</li>
-        </ul>
-      </section>
-*/
-
 const questionForm = document.querySelector('[data-js="addQuestionForm"]');
 
 questionForm.addEventListener("submit", (event) => {
