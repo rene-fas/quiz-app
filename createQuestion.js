@@ -41,7 +41,7 @@ questionForm.addEventListener("submit", (event) => {
   // Read form data
   const yourQuestion = document.querySelector('[data-js="yourQuestion"]').value;
   const yourAnswer = document.querySelector('[data-js="yourAnswer"]').value;
-  const tags = document.querySelector("#tags").value.split(",");
+  const tags = document.querySelector('[data-js="tags"]').value.split(",");
 
   // Generate new card element
   const cardElement = document.createElement("section");
@@ -85,6 +85,7 @@ questionForm.addEventListener("submit", (event) => {
 
   const tagsElement = document.createElement("ul");
   tagsElement.classList.add("tags");
+  tagsElement.setAttribute("data-js", "tags");
   for (const tag of tags) {
     const tagElement = document.createElement("li");
     tagElement.classList.add("li_tags");
