@@ -2,6 +2,7 @@ footer {
   border-left: solid 2px;
   border-right: solid 2px;
   border-bottom: solid 2px;
+  border-top: solid 2px;
   position: sticky;
   bottom: 0;
 }
