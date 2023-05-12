@@ -39,9 +39,11 @@ buttonsAnswer.forEach((buttonAnswer) => {
     //if it is hidden remove the attribute
     if (isHidden) {
       answerText.removeAttribute("hidden");
+      buttonAnswer.textContent = "Hide answer";
       //else add it
     } else {
       answerText.setAttribute("hidden", "");
+      buttonAnswer.textContent = "Show answer";
     }
   });
 });
